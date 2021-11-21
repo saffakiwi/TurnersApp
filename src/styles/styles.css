@@ -146,3 +146,7 @@
     position: relative;
     margin-right: 40px;
   }
+
+  .divcontainer {
+    display: flex;
+  }

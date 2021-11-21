@@ -11,7 +11,8 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     position: "relative",
     height: "700px",
-    marginTop: "90px",
+    backgroundColor: "#eeeeee",
+    marginBottom: "90px",
   },
   paper: {
     padding: theme.spacing(2),
@@ -19,6 +20,7 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.text.secondary,
     marginRight: "100px",
     marginLeft: "100px",
+    backgroundColor: "#eeeeee"
   },
   quotebutton: {
     backgroundColor: "#b71234",

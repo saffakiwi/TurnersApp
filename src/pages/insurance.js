@@ -13,6 +13,8 @@ import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import InsuranceBenefits from '../components/cibenefits';
 import InsuranceTable from '../components/citable';
+import Coverage from '../components/coverage';
+import Difference from '../components/difference';
 
 const useStyles = makeStyles((theme) => ({
    
@@ -141,6 +143,14 @@ return (
 
 <div>
   <InsuranceTable/>
+</div>
+
+<div>
+  <Coverage/>
+</div>
+
+<div class="divcontainer"> 
+  <Difference/>
 </div>
 <Footer/>
 </div>
