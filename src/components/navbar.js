@@ -46,46 +46,46 @@ function Navbar() {
 
   return (
     <div>
-      <div class="toplinks">
+      <div className="toplinks">
         <div>
-          <a class="toplinks a">0800 887 637</a>
+          <a className="toplinks a">0800 887 637</a>
         </div>
         <div>
-          <a class="toplinks a">FIND US</a>
+          <a className="toplinks a">FIND US</a>
         </div>
         <div>
-          <a class="toplinks a">SUPPORT</a>
+          <a className="toplinks a">SUPPORT</a>
         </div>
       </div>
 
-      <div class="navbar">
+      <div className="navbar">
         <div>
-          <img class="logo" src="turners_logo.png" />
+          <img className="logo" src="turners_logo.png" />
         </div>
 
-        <div class="subnav">
-          <a class="navbar a" href="#home">
+        <div className="subnav">
+          <a className="navbar a" href="#home">
             Buy
           </a>
         </div>
 
-        <div class="subnav">
-          <a class="navbar a" href="#home">
+        <div className="subnav">
+          <a className="navbar a" href="#home">
             Sell
           </a>
         </div>
 
-        <div class="subnav">
-          <a class="navbar a" href="#home">
+        <div className="subnav">
+          <a className="navbar a" href="#home">
             Finance
           </a>
         </div>
 
-        <div class="subnav">
-          <button class="subnavbtn">
-            Insurance <i class="fa fa-caret-down"></i>
+        <div className="subnav">
+          <button className="subnavbtn">
+            Insurance <i className="fa fa-caret-down"></i>
           </button>
-          <div class="subnav-content">
+          <div className="subnav-content">
             <Grid container={true}>
               <Grid className={classes.imgbox} item>
                 <ButtonBase className={classes.image}>
@@ -99,7 +99,7 @@ function Navbar() {
                     <Typography gutterBottom variant="subtitle1">
                       Car Insurance
                     </Typography>
-                    <Typography variant="body5" gutterBottom>
+                    <Typography variant="body2" gutterBottom>
                       Cover for accident, fire, theft and 3rd party damage
                     </Typography>
                   </Grid>
@@ -120,14 +120,14 @@ function Navbar() {
                     <Typography gutterBottom variant="subtitle1">
                       Mechanical Breakdown Insurance
                     </Typography>
-                    <Typography variant="body5" gutterBottom>
+                    <Typography variant="body2" gutterBottom>
                       Cover for unforseen and sudden mechanical and electrical breakdowns
                     </Typography>
                   </Grid>
                 </Grid>
               </Grid>
 
-              <img class="line" src="line.png"/>
+              <img className="line" src="line.png"/>
 
               <Grid className={classes.imgbox} item>
                 <ButtonBase className={classes.image}>
@@ -140,7 +140,7 @@ function Navbar() {
                     <Typography gutterBottom variant="subtitle1">
                       Claim
                     </Typography>
-                    <Typography variant="body5" gutterBottom>
+                    <Typography variant="body2" gutterBottom>
                       Cover for unforseen and sudden mechanical breakdowns
                     </Typography>
                   </Grid>
@@ -151,14 +151,14 @@ function Navbar() {
           </div>
         </div>
 
-        <div class="subnav">
-          <a class="navbar a" href="#home">
+        <div className="subnav">
+          <a className="navbar a" href="#home">
             Auctions
           </a>
         </div>
 
-        <div class="subnav">
-          <a class="navbar a" href="#home">
+        <div className="subnav">
+          <a className="navbar a" href="#home">
             Services
           </a>
         </div>

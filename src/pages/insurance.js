@@ -1,4 +1,3 @@
-import react from 'react';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
 import { Typography } from '@material-ui/core';
@@ -147,7 +146,7 @@ return (
   <Coverage/>
 </div>
 
-<div class="divcontainer"> 
+<div className="divcontainer"> 
   <Difference/>
 </div>
 
