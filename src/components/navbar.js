@@ -83,7 +83,7 @@ function Navbar() {
 
         <div className="subnav">
           <button className="subnavbtn">
-            Insurance <i className="fa fa-caret-down"></i>
+            Insurance
           </button>
           <div className="subnav-content">
             <Grid container={true}>
