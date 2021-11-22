@@ -1,8 +1,8 @@
 import react from 'react';
-import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+
 
 const useStyles = makeStyles((theme) => ({
    
@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
       height: "700px",
       backgroundColor: "white",
       width: "100%",
+      marginBottom: "50px",
     },
     maingrid: {
         display: "flex",
@@ -79,8 +80,9 @@ function Difference(){
                 <Typography className={classes.btext} variant="body1">We've been helping Kiwis buy and sell used cars for over 50 years.</Typography>
                 </div>
             </Grid>
-
+            
         </Grid>
+
     </div>
 
     )
