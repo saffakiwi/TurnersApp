@@ -107,7 +107,7 @@ function Navbar() {
                 
               </Grid>
 
-            <img class="line" src="line.png"/>
+            <img className="line" src="line.png"/>
 
               <Grid className={classes.imgbox} item>
                 <ButtonBase className={classes.image}>
