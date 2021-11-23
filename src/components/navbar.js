@@ -54,7 +54,7 @@ function Navbar() {
           <a className="toplinks a">FIND US</a>
         </div>
         <div>
-          <a className="toplinks a">SUPPORT</a>
+          <a className="toplinks a">Contact</a>
         </div>
       </div>
 
